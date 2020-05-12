@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>NICOLAS PROTHERO</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Header :3 -->
+    <header id="header">
+        <a href="#" class="logo">NP</a>
+        <ul>
+            <li><a href="#home" onclick="toggle()">Home</a></li>
+            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="#computer" onclick="toggle()">Computer</a></li>
+            <li><a href="#design" onclick="toggle()">Design</a></li>
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+
+<!-- BANNER :0 -->
+    <section class="banner" id="home">
+        <h2>NICOLAS PROTHERO</h2>
+    </section>
+    
+    
+<!-- ABOUT :0 -->
+    <section class="sec abtclr" id="about">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>About Me</h3>
+                    <p>Hey, I'm Nicolas Prothero — a student from Weston, Florida. I am interested and currently studying <color>Computer Science</color> and <color>Graphic Design</color>. You can check out the programming languages I know, and my design portfolio below.
+                    <p>Resume:</p>
+                <a href="resources/Resume_Nicolas_Prothero.pdf" target="_blank" class="btn">View Resume</a>
+            </div>
+        </div>  
+    </section>
+ 
+    
+<!-- COMPUTER :0 -->
+    <section class="sec" id="computer">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Computer Skills</h3>
+                <p>I learned many important skills and languages in school. Some of these are the most used and versatile programming languages. For example, this website was created using <color>HTML5</color> and <color>CSS3</color>. </p>
+                <p>Some of the programming languages I know include:</p>
+            </div>
+            <div class="skills">
+                <div class="box">
+                    <div class="iconBx">
+                        <img src="images/JavaLogo.png">
+                    </div>
+                    <div class="content">
+                    </div>
+                        <h2>Java</h2>
+                </div>
+             <div class="box">
+                    <div class="iconBx">
+                        <img src="images/PythonLogo.png">
+                    </div>
+                    <div class="content">
+                    </div>
+                        <h2>Python</h2>
+                </div>
+             <div class="box">
+                    <div class="iconBx">
+                        <img src="images/HTMLLogo.png">
+                    </div>
+                    <div class="content">
+                    </div>
+                        <h2>HTML5</h2>
+                </div>
+             <div class="box">
+                    <div class="iconBx">
+                        <img src="images/CSSLogo.png">
+                    </div>
+                    <div class="content">
+                    </div>
+                        <h2>CSS</h2>
+                </div>
+                <div class="box">
+                    <div class="iconBx">
+                        <img src="images/JavaScriptLogo.png">
+                    </div>
+                    <div class="content">
+                    </div>
+                        <h2>JavaScript</h2>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+<!-- Art and Design :0 -->
+    <section class="sec abtclr" id="design">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Art and Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="resources/Resume_Nicolas_Prothero.pdf" target="_blank" class="btn">View Portfolio</a>
+            </div>
+        </div>  
+    </section>
+  
+<!-- Footer -->
+    <section class="footer">
+        <ul>
+            <li>Made by Nicolas Prothero 2020</li>
+        </ul>
+        
+    </section>
+    
+
+    <script type ="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle(){
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
