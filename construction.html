@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap" rel="stylesheet">
+
+    <!-- INFORMATION -->
+    <title>Nicolas Prothero</title>
+    <meta name="description" content="Nicolas Prothero's Portfolio">
+    <meta name="author" content="Nicolas Prothero">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="img/ico" href="img/favicon.ico">
+
+    <!-- JS Script & JQuery -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+
+            <!-- LOADING SCREEN -->
+            <div class="loader-wrapper">
+                <span class="loader"></span>
+            </div>
+
+            <script>
+                $(window).on("load",function(){
+                $(".loader-wrapper").fadeOut(1000);
+                });
+            </script>
+
+
+            <!-- HEADER -->
+
+            <header id="header">
+                <a href="index.html">
+                <img src="img/favicon.png" width="60" height="60">
+                </a> 
+            </header>
+
+
+                <!-- IMAGES -->
+                <img src="img/placeholder_construct.png" class="img img_p" >
+
+                <!-- MAIN INFO -->
+                <h1>Sorry, this page is under construction.</h1>
+                <h3>This page is currently under construciton.</h3>
+                <h3>Check back soon for more updates!</h3>
+    
+                <!-- FOOTER -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2>more</h2>
+                <p>
+                    <a href="resources/Resume_Nicolas_Prothero.pdf" target="_blank">resume</a> • <a href="mailto:nprothero0917@gmail.com">email</a> • <a href="https://github.com/nicolasprothero" target="_blank">GitHub</a>
+                </p>
+            </div>
+        </div>
+        <script type ="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
+</body>
+</html>
