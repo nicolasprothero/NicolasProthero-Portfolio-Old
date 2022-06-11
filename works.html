@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- INFORMATION -->
+    <title>Nicolas Prothero</title>
+    <meta name="description" content="Nicolas Prothero's Portfolio">
+    <meta name="author" content="Nicolas Prothero">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="img/ico" href="img/favicon.ico">
+
+    <!-- JS Script & JQuery -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+
+            <!-- HEADER -->
+
+            <header id="header">
+                <a href="index.html">
+                <img src="img/favicon.png" width="60" height="60">
+                </a> 
+            </header>
+
+
+            <!-- LOADING SCREEN -->
+            <div class="loader-wrapper">
+                <span class="loader"></span>
+            </div>
+
+            <script>
+                $(window).on("load",function(){
+                $(".loader-wrapper").fadeOut(1000);
+                });
+            </script>
+
+                <section>
+                    <h1>ALL MY WORK</h1>
+                </section>
+
+                <section>
+                    <br>
+                    <h5>scroll ↓</h5>
+                </section>
+
+                <section>
+                    <img src="img/Work_Plant.png" class="img img_p" >
+                    <h4>A <highlight>plant care app</highlight> that is custom to your watering schedules.</h4>
+                    <h3>A plant app with ease of use and user experience in mind. Allows users to input their plants and reminds them when they must tend to them. Completely original illustration and icon work.</h3>
+                    <h3><a href="construction.html"><highlight><b>View more</b></highlight></a></h3>
+                </section>
+
+                <section>
+                    <img src="img/Work_Website.png" class="img img_p" >
+                    <h4>A personal portfolio <highlight>website</highlight> to showcase my personal works.</h4>
+                    <h3>This is the website you're curently on! It is fully responsive, coded in HTML, CSS, and JavaScript. Showcases my works in both software and design.</h3>
+                    <h3><a href="construction.html"><highlight><b>View more</b></highlight></a></h3>
+                </section>
+
+                <section>
+                    <h2>more</h2>
+                    <p>
+                        <a href="resources/Resume_Nicolas_Prothero.pdf" target="_blank">Resume</a> • <a href="mailto:nprothero0917@gmail.com">Email</a> • <a href="https://github.com/nicolasprothero" target="_blank">GitHub</a>
+                    </p>
+                </section>
+
+            </div>
+        </div>
+        <script type ="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
+</body>
+</html>
