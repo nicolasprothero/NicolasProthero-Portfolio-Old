@@ -34,6 +34,15 @@ a {
     position: fixed;
 }
 
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logo:hover{
+    width: 65px;
+    height: 65px;
+}
+
 /** TEXT **/
 
 h1 {
@@ -67,7 +76,7 @@ h3 {
 }
 
 h4 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.5;
     max-width: 560px;
@@ -83,7 +92,7 @@ h5 {
 p {
     line-height: 1.5;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     max-width: 600px
 }
 
@@ -104,35 +113,62 @@ section .img{
     height: 400px;
 }
 
+
+/** HIGHLIGHT TEXT EFFECT **/
+
+highlight {
+    background: linear-gradient(
+        to bottom,
+        transparent 65%,
+        #beebba 0%
+    );
+}
+
+highlight:hover{
+    background: linear-gradient(
+        to bottom,
+        transparent 65%,
+        #d6f3d3 0%
+    );
+}
+
+section.plant highlight:hover{
+    background: linear-gradient(
+        to bottom,
+        transparent 65%,
+        #beebba 0%
+    );
+}
+
 section.website highlight{
     background: linear-gradient(
         to bottom,
-        transparent 60%,
-        #badeed 50%
+        transparent 65%,
+        #badeed 0%
     );
 }
 
 section.website highlight:hover{
     background: linear-gradient(
         to bottom,
-        transparent 60%,
-        #d6e8ef 50%
+        transparent 65%,
+        #badeed 0%
     );
 }
 
 section.design_portfolio highlight{
     background: linear-gradient(
         to bottom,
-        transparent 60%,
-        #edabab 50%
+        transparent 65%,
+        #edabab 0%
     );
 }
 
 section.design_portfolio highlight:hover{
     background: linear-gradient(
         to bottom,
-        transparent 60%,
-        #f9cccc 50%
+        transparent 65%,
+        #edabab 0%
     );
 }
 
@@ -154,7 +190,7 @@ section.design_portfolio highlight:hover{
 
 
 .works h1{
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2.5px;
     -webkit-text-stroke-color: #454545;
     color:transparent;
     text-align: center;
@@ -214,6 +250,8 @@ section.design_portfolio highlight:hover{
 /** CONSTRUCTION PAGE **/
 
 .construction h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #454545;
     letter-spacing: 2.8px;
     font-weight: 800;
     font-size: 40x;
@@ -253,25 +291,6 @@ header .logo {
     transform: 0.6s;
 }
 **/
-
-
-/** HIGHLIGHT TEXT EFFECT **/
-
-highlight {
-    background: linear-gradient(
-        to bottom,
-        transparent 60%,
-        #beebba 50%
-    );
-}
-
-highlight:hover{
-    background: linear-gradient(
-        to bottom,
-        transparent 60%,
-        #d6eecc 50%
-    );
-}
 
 /** IMAGE **/
 
