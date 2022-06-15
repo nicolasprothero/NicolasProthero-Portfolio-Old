@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.typekit.net/yju3fsj.css">
+
+
+    <!-- INFORMATION -->
+    <title>Nicolas Prothero</title>
+    <meta name="description" content="Nicolas Prothero's Portfolio">
+    <meta name="author" content="Nicolas Prothero">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="img/ico" href="img/favicon.ico">
+
+    <!-- JS Script & JQuery -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="works">
+
+    <div class="wrapper">
+        <div class="content">
+
+            <!-- HEADER -->
+
+            <header id="header">
+                <a href="https://nicolasprothero.com">
+                    <img src="img/favicon.png" class="logo">
+                </a> 
+            </header>
+
+
+            <!-- LOADING SCREEN -->
+            <div class="loader-wrapper">
+                <span class="loader"></span>
+            </div>
+
+            <script>
+                $(window).on("load",function(){
+                $(".loader-wrapper").fadeOut(1000);
+                });
+            </script>
+
+                <h1>CASE STUDIES</h1>
+
+                <section class="plant">
+                    <img src="img/Work_Plant.png" class="img img_p">
+                    <h4>A <highlight>plant care app</highlight> that is custom to your watering schedules.</h4>
+                    <h5>FEB 2022 - PRESENT</h5>
+                    <h3>A plant app with ease of use and the user in mind. Allows users to input their plants and reminds them when they must tend to them. Completely original illustration and icon work.</h3>
+                    <h3><a href="work/plant-app"><highlight><b>View more</b></highlight></a></h3>
+                </section>
+
+                <section class="website">
+                    <img src="img/Work_Website.png" class="img img_p">
+                    <h4>A portfolio <highlight>website</highlight> to showcase my personal works.</h4>
+                    <h5>MAY 2022 - PRESENT</h5>
+                    <h3>This is the website you're curently on! It is fully responsive, coded in HTML, CSS, and JavaScript. Showcases my works in both software and design.</h3>
+                    <h3><a href="work/portfolio-website.html"><highlight><b>View more</b></highlight></a></h3>
+                </section>
+
+                <section class="design_portfolio">
+                    <img src="img/Work_Art.png" class="img img_p">
+                    <h4>Check out all of my personal art and <highlight>design work.</highlight></h4>
+                    <h5>AUG 2021 - PRESENT</h5>
+                    <h3>This is the website you're curently on! It is fully responsive, coded in HTML, CSS, and JavaScript. Showcases my works in both software and design.</h3>
+                    <h3><a href="work/art"><highlight><b>View more</b></highlight></a></h3>
+                </section>
+
+                    <h2>more</h2>
+                    <p>
+                        <a href="resources/Resume_Nicolas_Prothero.pdf" target="_blank">Resume</a> · <a href="mailto:contact@nicolasprothero.com">Email</a> · <a href="https://github.com/nicolasprothero" target="_blank">GitHub</a> · <a href="https://instagram.com/nic_hase" target="_blank">Instagram</a>
+                    </p>
+                    <br>
+
+            </div>
+        </div>
+        <script type ="text/javascript">
+            window.addEventListener("scroll", function(){
+                var header = document.querySelector("header");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            })
+        </script>
+
+</body>
+</html>
