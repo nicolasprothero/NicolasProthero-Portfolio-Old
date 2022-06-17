@@ -160,7 +160,7 @@ section.design_portfolio highlight{
     background: linear-gradient(
         to bottom,
         transparent 65%,
-        #edabab 0%
+        #edbebe 0%
     );
 }
 
@@ -168,7 +168,7 @@ section.design_portfolio highlight:hover{
     background: linear-gradient(
         to bottom,
         transparent 65%,
-        #edabab 0%
+        #edbebe 0%
     );
 }
 
