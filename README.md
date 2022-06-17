@@ -5,7 +5,7 @@ The website contains original illustrations and showcases my personal software a
 
 Fully responsive, coded in HTML/CSS and JavaScript from the ground up.
 
-*IMAGE*
+![Website_On_Desktop](img/Website_Desktop.png)
 
 ## Illustrations
 
@@ -14,8 +14,7 @@ The home page showcases the majority and is where the user is first allowed to i
 
 When the highlighted text is hovered over, the image reflects what is being said.
 
-
-*IMAGE OF ALL THE NICS*
+![All Illustrations](img/All_Illustrations.png)
 
 ## Case Studies
 
