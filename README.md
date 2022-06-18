@@ -1,6 +1,6 @@
 # Nicolas Prothero's Website Portfolio
 
-<a href="https://nicolasprothero.com" target="_blank">nicolasprothero.com</a> is a sleek and simple online **portfolio website**. 
+<a href="https://nicolasprothero.com" target="_blank">nicolasprothero.com</a> is a simple and modern online **portfolio website**. 
 The website contains original illustrations and showcases my personal software and graphic design work.
 
 Fully responsive, coded in **HTML/CSS** and **JavaScript** from the ground up.
@@ -11,7 +11,7 @@ Fully responsive, coded in **HTML/CSS** and **JavaScript** from the ground up.
 
 The site includes many **original illustrations**.
 
-The home page showcases the majority of the images they are all interactable. When the user `hovers` over the highlighted text, the image reflects what is being said.
+The majority of the images are shown on the landing page. When the user `hovers` over the highlighted text, the image reflects what is being said.
 
 ![All Illustrations](img/All_Illustrations.png)
 
