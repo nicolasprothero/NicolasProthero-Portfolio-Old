@@ -26,8 +26,16 @@ The site also includes my various case studies and personal projects.
 
 - Personal Website Portfolio
 
+## Upcoming
+
+Works pages are to be updated to include case studies of my projects. 
+
+These will include project statements, protoyping, and final products.
+
 ## Contact
 
 <a href="mailto:contact@nicolasprothero.com">Email</a>
 
 <a href="https://instagram.com/nic_hase" target="_blank">Instagram</a>
+
+
