@@ -50,7 +50,7 @@ h1 {
     -webkit-text-stroke-color: #454545;
     font-weight: 900;
     letter-spacing: 2.8px;
-    font-size: 55px;
+    font-size: 47px;
     line-height: 1;
     width: 80%;
     padding-bottom: 12px;
@@ -132,11 +132,19 @@ highlight:hover{
     );
 }
 
-section.plant highlight:hover{
+section.plant highlight{
     background: linear-gradient(
         to bottom,
         transparent 65%,
         #beebba 0%
+    );
+}
+
+section.plant highlight:hover{
+    background: linear-gradient(
+        to bottom,
+        transparent 65%,
+        #d2f0cf 0%
     );
 }
 
@@ -152,23 +160,23 @@ section.website highlight:hover{
     background: linear-gradient(
         to bottom,
         transparent 65%,
-        #badeed 0%
+        #cee8f3 0%
     );
 }
 
-section.design_portfolio highlight{
+section.sprout highlight{
     background: linear-gradient(
         to bottom,
         transparent 65%,
-        #edbebe 0%
+        #ffadb6 0%
     );
 }
 
-section.design_portfolio highlight:hover{
+section.sprout highlight:hover{
     background: linear-gradient(
         to bottom,
         transparent 65%,
-        #edbebe 0%
+        #ffc7ce 0%
     );
 }
 
@@ -190,7 +198,7 @@ section.design_portfolio highlight:hover{
 
 
 .works h1{
-    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #454545;
     color:transparent;
     text-align: center;
@@ -198,7 +206,7 @@ section.design_portfolio highlight:hover{
     margin-left: auto;
     letter-spacing: 8px;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 70px;
     line-height: 1.1;
 }
 
@@ -206,46 +214,6 @@ section.design_portfolio highlight:hover{
     height: 2px;
     background-color: #454545;
 }
-
-/**
-.works h5{
-    text-align: center;
-    color: #454545;
-    font-weight: 700;
-}
-
-.works h3{
-    text-align: center;
-    color: #454545;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: none;
-    max-width: none;
-    width: none;
-}
-
-.works h4{
-    text-align: center;
-    color: #454545;
-    font-weight: 700;
-}
-**/
-
-/**
-.works h5{
-    font-weight: 500;
-    letter-spacing: 2.8px;
-    font-size: 18px;
-    line-height: 1.4;
-    max-width: 600px;
-    width: 80%;
-    color: #8fd770;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 30px;
-}
-**/
 
 /** CONSTRUCTION PAGE **/
 
@@ -258,6 +226,15 @@ section.design_portfolio highlight:hover{
     line-height: 1;
     width: 80%;
     padding-bottom: 12px;
+}
+
+.portfolio-website img{
+    width: 50%;
+    height: 50%;
+}
+
+.portfolio-website h1{
+    text-align: center;
 }
 
 /** HEADER **/
@@ -281,16 +258,6 @@ header.sticky {
     padding-bottom: 20px;
 }
 
-/**
-header .logo {
-    position: relative;
-    font-weight: 900;
-    color: #000000;
-    font-size: 50px;
-    text-transform: uppercase;
-    transform: 0.6s;
-}
-**/
 
 /** IMAGE **/
 
