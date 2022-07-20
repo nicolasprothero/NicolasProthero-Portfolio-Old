@@ -337,33 +337,3 @@ header.sticky {
         background: #f9f6ef;
     }
   }
-
-  @media only screen and (min-width: 1600px) {
-    html{
-        zoom: 1.15;
-        }
-  }
-
-  @media only screen and (min-width: 1700px) {
-    html{
-        zoom: 1.2;
-        }
-  }
-
-  @media only screen and (min-width: 1800px) {
-    html{
-        zoom: 1.3;
-        }
-  }
-
-  @media only screen and (min-width: 1900px) {
-    html{
-        zoom: 1.35;
-        }
-  }
-  
-  @media only screen and (min-width: 2000px) {
-    html{
-        zoom: 1.4;
-        }
-  }
