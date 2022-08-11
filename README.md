@@ -21,14 +21,15 @@ The site also includes my various case studies and personal projects.
 
 **My case studies include:**
 
-- Plant Care App
-
+- Javescript Webgame
 
 - Personal Website Portfolio
 
+- Plant Care App (Webpage still WIP)
+
 ## Upcoming
 
-Works pages are to be updated to include case studies of my projects. 
+Works pages are to be updated for Plant Care App.
 
 These will include project statements, protoyping, and final products.
 
