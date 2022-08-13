@@ -116,6 +116,11 @@ section .img{
 }
 
 
+hr {
+    border-top: 3px solid #454545; 
+    width: 400px;
+}
+
 /** HIGHLIGHT TEXT EFFECT **/
 
 highlight {
@@ -288,6 +293,11 @@ header.sticky {
         margin-top: 15px;
     }
 
+    hr {
+        border-top: 3px solid #454545; 
+        width: 100px;
+    }
+
     h1 {
         font-size: 45px;
         letter-spacing: 2.5px;
@@ -303,8 +313,8 @@ header.sticky {
     .works .img {
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
 
     .works h1 {
