@@ -34,10 +34,9 @@
 
             <script>
                 $(window).on("load",function(){
-                $(".loader-wrapper").fadeOut(1000);
+                $(".loader-wrapper").fadeOut(2000);
                 });
             </script>
-
 
             <!-- HEADER -->
             <header id="header">
@@ -46,26 +45,19 @@
                 </a> 
             </header>
 
-
                 <!-- IMAGES -->
-                <img src="img/illustrations/default.png" class="img img_p" >
-                <img src="img/illustrations/art.png" class="img img_art">
-                <img src="img/illustrations/plant.png" class="img img_plant">
-                <img src="img/illustrations/travel.png" class="img img_travel">
-
+                <img src="img/illustrations/default.png" class="img" id="illustration">
 
                 <!-- MAIN INFO -->
+                <h2>HELLO THERE. MY NAME IS</h2>
                 <h1>NICOLAS PROTHERO</h1>
-                <h2>about</h2>
-                <h3><highlight><span class="hover link_p">Nicolas</span></highlight> is a student at the University of Florida, studying computer science and graphic design.</h3>
-                <h3>He loves <highlight><span class="hover link_travel">traveling,</span></highlight> <a href="https://instagram.com/nic_hase" target="_blank"><highlight><span class="hover link_art">making art,</span></highlight></a> and taking care of his extensive collection of <highlight><span class="hover link_plant">houseplants.</span></highlight></h3>
-                <h3>Check out his <b><a href="work" title="works"><highlight>work.</highlight></a></b></h3>
+                <h3>I am currently studying computer science and graphic design at the University of Florida.</h3>
+                <h3>I love <highlight><span onmouseover="changeImg('travel')">traveling,</span></highlight> <highlight><span onmouseover="changeImg('art')">making art,</span></highlight> and taking care of my <highlight><span onmouseover="changeImg('plant')">houseplants.</span></highlight> If you would like, you can check out my work here:</h3>
+                <h3><b><a href="work.html" title="works"><highlight>Programming</highlight></a></b> or <b><a href="https://instagram.com/nic_hase" target="_blank"><highlight>Art & Design</highlight></a></b></h3>
     
                 <!-- FOOTER -->
-                <h2>more</h2>
-                <p>
-                    <a href="resources/Nicolas-Prothero-Resume.pdf" target="_blank">Resume</a> · <a href="mailto:contact@nicolasprothero.com">Email</a> · <a href="https://github.com/nicolasprothero" target="_blank">GitHub</a>
-                </p>
+                <h2>MORE</h2>
+                <p><a href="resources/Nicolas-Prothero-Resume.pdf" target="_blank">Resume</a> · <a href="mailto:contact@nicolasprothero.com">Email</a> · <a href="https://github.com/nicolasprothero" target="_blank">GitHub</a></p>
             </div>
         </div>
         <script type ="text/javascript">

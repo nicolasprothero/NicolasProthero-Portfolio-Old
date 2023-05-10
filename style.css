@@ -8,6 +8,14 @@ body {
     color: #454545;
 }
 
+.content {
+    left: 10%;
+    top: 10%;
+    right: 10%;
+    position: absolute;
+    margin-top: 30px;
+}
+
 a {
     text-decoration: none;
     color: inherit
@@ -15,15 +23,7 @@ a {
 
 ::selection {
     background: #beebba;
-  }  
-
-.content {
-    left: 10%;
-    top: 10%;
-    right: 10%;
-    position: absolute;
-    margin-top: 50px;
-}
+}  
 
 #wrapper {
     width: 100%;
@@ -35,12 +35,10 @@ a {
 }
 
 .logo{
-    width: 60px;
-    height: 60px;
+    width: 4vw;
 }
 .logo:hover{
-    width: 65px;
-    height: 65px;
+    width: 4.3vw;
 }
 
 /** TEXT **/
@@ -50,75 +48,75 @@ h1 {
     -webkit-text-stroke-color: #454545;
     font-weight: 900;
     letter-spacing: 2.8px;
-    font-size: 47px;
+    font-size: 3vw;
     line-height: 1;
     width: 80%;
     padding-bottom: 12px;
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 800;
     letter-spacing: 2.8px;
-    font-size: 18px;
+    font-size: 1.4vw;
     line-height: 1.4;
     margin-top: 45px;
     max-width: 600px;
     width: 80%;
-    color: #beebba
+    color: #beebba;
 }
 
 h3 {
-    font-size: 27px;
+    font-size: 1.7vw;
     font-weight: 300;
     line-height: 1.5;
-    max-width: 560px;
-    width: 90%
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 1.7vw;
     font-weight: 700;
-    line-height: 1.5;
-    max-width: 560px;
-    width: 90%
-}
-
-h5 {
-    font-size: 15px;
-    font-weight: 200;
     line-height: 1.5;
 }
 
 p {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 300;
     max-width: 600px
 }
 
 /** SECTIONS **/
 
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
 section {
-    padding-bottom: 100px;
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 60%;
+    height: 20%;
+    display: inline-block;
+    border-radius: 4%;
+    padding: 5vh 5vw 5vh 5vw;
+    margin: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 section .img{
-    float: right;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     border-radius: 10px;
     padding: 0;
-}
-
-
-hr {
-    border-top: 3px solid #454545; 
-    width: 400px;
 }
 
 /** HIGHLIGHT TEXT EFFECT **/
@@ -139,54 +137,6 @@ highlight:hover{
     );
 }
 
-section.plant highlight{
-    background: linear-gradient(
-        to bottom,
-        transparent 65%,
-        #beebba 0%
-    );
-}
-
-section.plant highlight:hover{
-    background: linear-gradient(
-        to bottom,
-        transparent 65%,
-        #d2f0cf 0%
-    );
-}
-
-section.website highlight{
-    background: linear-gradient(
-        to bottom,
-        transparent 65%,
-        #badeed 0%
-    );
-}
-
-section.website highlight:hover{
-    background: linear-gradient(
-        to bottom,
-        transparent 65%,
-        #cee8f3 0%
-    );
-}
-
-section.sprout highlight{
-    background: linear-gradient(
-        to bottom,
-        transparent 65%,
-        #fbc6cc 0%
-    );
-}
-
-section.sprout highlight:hover{
-    background: linear-gradient(
-        to bottom,
-        transparent 65%,
-        #fcd3d7 0%
-    );
-}
-
 /** LOADING SCREEN **/
 
 .loader-wrapper {
@@ -203,22 +153,29 @@ section.sprout highlight:hover{
 
 /** WORKS PAGE **/
 
-
-.works h1{
-    color: #454545;
-    margin-bottom: 100px;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    letter-spacing: 8px;
-    font-weight: 900;
-    font-size: 70px;
-    line-height: 1.1;
-}
-
 .separator-big {
     height: 2px;
     background-color: #454545;
+}
+
+.works h4 {
+    font-size: 1.7vw;
+}
+
+.works h3 {
+    font-size: 1vw;
+}
+
+.works h2 {
+    font-size: 1vw;
+    margin: 0;
+}
+
+.works h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 /** CONSTRUCTION PAGE **/
@@ -253,24 +210,22 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
-    padding-top: 50px;
+    padding-left: 6vw;
+    padding-top: 7vh;
     z-index: 1000;
 }
 
 header.sticky {
     background: #f9f6ef;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2vw;
+    padding-bottom: 2vh;
 }
-
 
 /** IMAGE **/
 
 .img {
     margin-left: auto;
     margin-right: auto;
-    display: none;
     left: 80%;
     top: 15%;
     float: right;
@@ -278,8 +233,7 @@ header.sticky {
     padding-left: 15px;
     margin-top: 25px;
     margin-bottom: 45px;
-    width: 550px;
-    height: 550px;
+    width: 37vw;
 }
 
 /** MOBILE DEVICE **/
@@ -293,14 +247,30 @@ header.sticky {
         margin-top: 15px;
     }
 
+    .logo {
+        width: 10vw;
+    }
+
     hr {
         border-top: 3px solid #454545; 
         width: 100px;
     }
 
     h1 {
-        font-size: 45px;
+        font-size: 10vw;
         letter-spacing: 2.5px;
+    }
+
+    h2 {
+        font-size: 3.5vw;
+    }
+
+    h3 {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 4vw;
     }
 
     .img {
@@ -315,15 +285,28 @@ header.sticky {
         margin-right: auto;
         width: 100%;
         height: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .works h1 {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        font-size: 40px;
+        font-size: 10vw;
     }
 
+    .works h4 {
+        font-size: 5vw;
+    }
+
+    .works h2 {
+        font-size: 4vw;
+    }
+
+    .works h3 {
+        font-size: 5vw;
+    }
 
     .construction .img {
         margin-left: auto;
@@ -337,6 +320,17 @@ header.sticky {
         margin-left: auto;
         margin-right: auto;
         font-size: 30px;
+    }
+
+    .works section {
+        margin: 1vh 0 2vh 0;
+        padding: 8vw;
+    }
+
+    .works .inner {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 3vw;
     }
 
     header,

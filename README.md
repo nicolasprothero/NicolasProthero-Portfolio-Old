@@ -21,22 +21,13 @@ The site also includes my various case studies and personal projects.
 
 **My case studies include:**
 
-- Javescript Webgame
+- Plant Care App
+
 
 - Personal Website Portfolio
-
-- Plant Care App (Webpage still WIP)
-
-## Upcoming
-
-Works pages are to be updated for Plant Care App.
-
-These will include project statements, protoyping, and final products.
 
 ## Contact
 
 <a href="mailto:contact@nicolasprothero.com">Email</a>
 
 <a href="https://instagram.com/nic_hase" target="_blank">Instagram</a>
-
-
